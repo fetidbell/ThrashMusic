@@ -1,0 +1,302 @@
+
+/* 
+
+		COLORS:
+
+		Black: 			#000000;
+		White: 			#ffffff;
+		Tiffany: 		#78deeb;
+
+
+*/
+
+
+
+
+/*  ---------------------------------------
+	Header
+	-------------------------------------- */
+
+header {
+	background: #78deeb;
+	height: 99px;
+}
+
+#header_left {
+	width: 600px;
+}
+
+#header_left h1 {
+	color: #fff;
+	font-weight: 100;
+	font-size: 32px;
+	margin: 0;
+	padding-top: 10px;
+	position: relative;
+	left: -25px;
+	float: left;
+}
+
+.logo {
+	color: #000;
+	font-weight: 600;
+}
+
+
+#header_left a {
+	text-decoration: none;
+}
+
+#header_left img {
+	float: left;
+	padding: 10px 0 0;
+}
+
+#header_right {
+	text-align: right;
+	float: right;
+	line-height: 25px;
+}
+
+#header_right h4 {
+	margin: 0;
+	font-size: 17px;
+}
+
+#header_right-top {
+	padding-top: 15px;
+}
+
+
+
+/*  ---------------------------------------
+	Entertain
+	-------------------------------------- */
+
+#entertain {
+	background: #fff;
+	text-align: center;
+}
+
+#entertain h2 {
+	font-weight: 100;
+	font-size: 32px;
+
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 240px;
+}
+
+.entertain-artists_column {
+	float: left;
+	font-size: 14px;
+}
+
+#artists table {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#artists table tr td{
+	font-size: 14px;
+	padding: 0;
+	vertical-align: top;
+	text-align: left;
+	padding-top: 12px;
+}
+
+#artists table tr td:nth-child(1) {			/* first column*/
+	/*background: #97f69e;*/
+	width: 247px;
+}
+
+#artists table tr td:nth-child(2) {			/* second column*/
+	/*background: #97dcf6;*/
+	padding-left: 32px;
+
+}
+
+#artists table tr td:nth-child(3) {			/* third column*/
+	/*background: #f697ea;*/
+	padding-left: 28px;
+}
+
+.entertain-artists_column h4 {
+	font-size: 20px;
+	padding-top: 27px;
+}
+
+#entertain-column_left {
+	width: 247px;
+	float: left;
+	margin-right: 35px;
+}
+
+#entertain-column_center {
+	width: 380px;
+}
+
+#entertain-column_right {
+	width: 258px;
+	float: right;
+}
+
+
+/*  ---------------------------------------
+	Menu
+	-------------------------------------- */
+
+#menu {
+	background: #78deeb;
+	height: 58px;
+}
+
+#menu ul {
+	padding: 20px 0;
+	list-style-type: none;
+	display: block;
+	height: auto;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 20px 80px;
+	height: auto;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #000;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#menu ul li:hover {
+	position: relative;
+	top: -1px;
+	background: #71d2de;
+	box-shadow: 0 2px 5px #000;
+}
+
+
+/*  ---------------------------------------
+	Content
+	-------------------------------------- */	
+
+#content {
+	background: #fff;
+}
+
+#content h2 {
+	font-weight: 100;
+	font-size: 32px;
+
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 300px;
+}
+
+#content img {
+	float: right;
+}
+
+#content p {
+	display: inline-block;
+	width: 250px;
+	margin: 0;
+	padding: 0 15px;
+}
+
+#content h4 {
+	float: left;
+	width: 190px;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.content_part {
+	padding-bottom: 100px;
+}
+
+
+/*  ---------------------------------------
+	Footer
+	-------------------------------------- */
+
+footer {
+	background: #78deeb;
+	padding-bottom: 15px;
+}
+
+#copyright p {
+	margin: 0;
+}
+
+#social {
+	padding: 15px 0 10px 0;
+}
+
+#social ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 300px;
+}
+
+#social ul li {
+	display: inline;
+	padding: 0 7px;
+}
+
+#copyright {
+	float: left;
+}
+
+#copyright p {
+	margin: 0;
+	padding: 0;
+}
+
+#contacts {
+	float: right;
+	text-align: right;
+}
+
+#contacts p {
+	margin: 0;
+}
+
+/*  ---------------------------------------
+	Global
+	-------------------------------------- */
+
+html {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Courier New";
+	
+}
+
+body {
+	max-width: 1020px;	
+	background: #c1bbbb;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.container {
+	margin: 0 33px;
+	width: auto;
+}
